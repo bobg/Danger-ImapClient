@@ -1,0 +1,11 @@
+response_data: '*' response_data2 "\r\n"
+
+response_data2: resp_cond_state
+               | resp_cond_bye
+               | mailbox_data
+               | message_data
+               | capability_data
+
+resp_cond_state: resp_cond_state2 resp_text
+
+resp_cond_state2: 'OK' | 'NO' | 'BAD'

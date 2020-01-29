@@ -1,0 +1,16 @@
+MANIFEST
+Makefile.PL
+lib/Danger/Error.pm
+lib/Danger/Logger.pm
+lib/Danger/Server.pm
+lib/Danger/Server/Child.pm
+lib/Danger/Server/Connection.pm
+lib/Danger/Server/HTTPClient.pm
+lib/Danger/Server/IMAPClient.pm
+lib/Danger/Server/Listener.pm
+lib/Danger/Server/Readable.pm
+lib/Danger/Server/Reader.pm
+lib/Danger/Server/Thing.pm
+lib/Danger/Server/Timer.pm
+lib/Danger/Server/Writable.pm
+lib/Danger/Server/Writer.pm
